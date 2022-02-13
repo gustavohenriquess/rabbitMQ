@@ -23,7 +23,7 @@ rabbitmq:stop
 
 ## RabbitMQ "Hello World!"
 
-[x] Working
+- [x] Working
 
 #### how to execute!
 
