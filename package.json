@@ -5,6 +5,10 @@
   "repository": "https://github.com/gustavohenriquess/rabbitMQ.git",
   "author": "Gustavo Henrique <gustavo._henrique@hotmail.com>",
   "license": "MIT",
+  "scripts": {
+    "rabbitmq:start": "docker run -d --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.9-management",
+    "rabbitmq:stop": "docker stop rabbitmq"
+  },
   "devDependencies": {
     "@commitlint/cli": "^16.2.1",
     "@commitlint/config-conventional": "^16.2.1",
