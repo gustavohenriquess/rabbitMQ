@@ -20,5 +20,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "amqplib": "^0.8.0"
   }
 }
