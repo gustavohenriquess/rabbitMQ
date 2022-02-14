@@ -5,6 +5,7 @@ First rabbitMQ application
 ## Documentation
 
 - [RabbitMQ "Hello World!"](https://www.rabbitmq.com/tutorials/tutorial-one-javascript.html)
+- [RabbitMQ "Work Queues!"](https://www.rabbitmq.com/tutorials/tutorial-two-javascript.html)
 - [RabbitMQ "Docker](https://www.rabbitmq.com/download.html)
 
 ## Generic Commands
@@ -21,17 +22,17 @@ to stop RabbitMQ Server:
 rabbitmq:stop
 ```
 
-## RabbitMQ "Hello World!"
-
-- [x] Working
-
-#### how to execute!
-
-on root Folder:
+on root Folder to install dependencies:
 
 ```
 yarn install
 ```
+
+## RabbitMQ: Hello World!
+
+- [x] Working
+
+#### how to execute!
 
 to send a message:
 
@@ -43,4 +44,20 @@ to receive a message:
 
 ```
 node sampleSrc/receive.js
+```
+
+## RabbitMQ: Work Queues!
+
+- [x] Working
+
+to send a message:
+
+```
+node sampleSrc/workQueues/newTask.js Mensagem ...
+```
+
+to receive a message:
+
+```
+node sampleSrc/workQueues/worker.js
 ```
