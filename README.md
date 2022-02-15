@@ -6,6 +6,7 @@ First rabbitMQ application
 
 - [RabbitMQ "Hello World!"](https://www.rabbitmq.com/tutorials/tutorial-one-javascript.html)
 - [RabbitMQ "Work Queues!"](https://www.rabbitmq.com/tutorials/tutorial-two-javascript.html)
+- [RabbitMQ "Publish/Subscribe!"](https://www.rabbitmq.com/tutorials/tutorial-three-javascript.html)
 - [RabbitMQ "Docker](https://www.rabbitmq.com/download.html)
 
 ## Generic Commands
@@ -62,7 +63,7 @@ to receive a message:
 node sampleSrc/workQueues/worker.js
 ```
 
-## RabbitMQ: Work Queues!
+## RabbitMQ: Publish/Subscribe!
 
 - [x] Working
 
