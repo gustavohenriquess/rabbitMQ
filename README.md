@@ -61,3 +61,19 @@ to receive a message:
 ```
 node sampleSrc/workQueues/worker.js
 ```
+
+## RabbitMQ: Work Queues!
+
+- [x] Working
+
+to send a message:
+
+```
+node sampleSrc/publishSubscribe/emit_log.js Mensagem ...
+```
+
+to receive a message:
+
+```
+node sampleSrc/publishSubscribe/receive_logs.js
+```
